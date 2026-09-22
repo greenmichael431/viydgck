@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：优化实践：分页查询性能优化解决offset问题
+简介：前端打包分包加载提速方案，前端打包做代码分包，拆分大 bundle，页面按需加载，提升首屏加载速度。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/52615836.html
+
+原标题：踩坑记录：UTC时间与本地时间混用逻辑错乱
+简介：golang rate‑limiter 限流组件，封装通用 Go 限流组件，支持多算法，业务接口直接复用调用。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/48594736.html
+
+原标题：架构复盘：数据库主从架构设计与延迟应对方案
+简介：golang go 符号表与调试信息取舍，区分生产环境调试符号取舍，平衡镜像体积与故障排查能力。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/85950353.html
+
+原标题：开发复盘：搭建文件上传服务支持分片断点续传
+简介：nodejs 信号处理优雅关闭服务，监听系统信号，执行资源清理，实现 Node 服务优雅停机，拒绝粗暴杀死进程。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/30802917.html
+
+原标题：AI实践：大模型生成代码后审查与重构实践
+简介：CI 构建缓存加速编译速度，开启 CI 流水线依赖缓存，复用上一次构建依赖包，缩短流水线构建耗时。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/52727061.html
+
+原标题：接口压测定位系统性能瓶颈
+简介：golang 结构体深浅拷贝区别实操，区分结构体浅拷贝深拷贝，规避指针引用带来数据意外篡改问题。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/29926030.html
+
+原标题：Troubleshoot：跨库关联查询，性能急剧恶化
+简介：数据库索引重建提升查询速度，针对碎片化索引，重建数据库索引，恢复 SQL 查询执行性能。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/99361403.html
+
+原标题：方案对比：几种分布式限流算法架构适用性
+简介：golang mysql 慢查询日志程序采集解析，程序读取解析 mysql 慢查询日志，统计慢 SQL 做监控告警。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/07179582.html
+
+原标题：消息队列重复消费业务处理
+简介：golang influxdb 时序数据库读写操作，influxdb 存储时序指标，业务指标监控数据存取。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/63805808.html
+
+原标题：实战：对象存储断点续传下载实践
+简介：容器软链接文件权限修复，修复容器内软链接文件权限，让程序能够正常读取软链接指向的文件。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/40560697.html
+
+原标题：开发复盘：大列表内存分批读取避免OOM实践
+简介：后端分页查询逻辑代码实现，编写后端分页接口，处理页码、每页条数参数，优化大数据量查询返回结果。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/81917059.html
+
+原标题：golang gorm 批量插入性能调优
+简介：golang gin 框架接口开发实战，Gin 框架搭建 HTTP 服务，开发增删改查接口，快速完成后端接口开发。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/96158494.html
+
+原标题：设计思考：分布式锁选型、风险、业务约束
+简介：golang sqlx 原生 SQL 代码简化，sqlx 简化原生 SQL 结果映射结构体，兼顾性能与开发效率。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/29671704.html
+
+原标题：golang prometheus metrics 埋点开发
+简介：容器软链接文件权限修复，修复容器内软链接文件权限，让程序能够正常读取软链接指向的文件。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/07292805.html
+
+原标题：golang docker compose 部署 minio
+简介：golang go 模块迁移从 GOPATH 到 GoMod，老项目从 GOPATH 迁移 go mod，解决依赖管理混乱问题。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/72028171.html
+
+原标题：设计思考：容器化业务应用架构改造要点
+简介：容器资源限制防止宿主机过载，设置容器 CPU 内存资源上限，避免单个容器耗尽宿主机全部硬件资源。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/15352585.html
+
+原标题：golang k8s ingress 路由域名转发
+简介：多套环境灵活切换配置方案，实现配置动态切换，通过环境变量、配置文件，快速切换开发测试生产环境。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/18381397.html
+
+原标题：golang 系统设计日志系统架构思路
+简介：golang go 程序版本号内置编译注入，编译时注入 git commit 版本号，程序运行输出版本便于排查。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/30503929.html
+
+原标题：golang 项目环境变量加载方案
+简介：golang go http 静态文件禁止目录遍历，http.FileServer 防止../ 路径穿越，了解底层安全实现。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/60806920.html
+
+原标题：Architecture：BFF后端聚合层架构适用场景
+简介：golang fasthttp 服务开发完整示例，fasthttp 搭建 http 服务，路由、参数读取、响应返回完整业务。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/64896918.html
+
+原标题：前端图片懒加载性能优化
+简介：golang tidb 数据库 go 项目适配，go 程序适配 tidb，兼容 mysql 协议，分布式数据库业务开发。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/85948161.html
+
+原标题：golang 系统设计内部 rpc 接口设计原则梳理
+简介：golang feishu 飞书机器人消息发送，调用飞书 webhook 机器人，发送文本卡片消息，实现业务告警通知。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/85080704.html
+
+原标题：架构笔记：多环境隔离架构开发测试生产隔离
+简介：golang 半关闭 tcp 连接 shutdown，tcp 连接 shutdown 半关闭，单向关闭读或者写，理解 tcp 关闭流程。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/10740423.html
+
+原标题：golang minio 预签名 url 临时访问
+简介：golang http client 全局变量复用，http Client 不要每次请求新建，复用 Transport 提升性能。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/85951474.html
+
+原标题：编译打包产物依赖分析解读
+简介：golang http3 quic 客户端服务端示例，go 实现 http3 quic 服务端客户端，体验 quic 协议低延迟特性。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/85817919.html
+
+原标题：golang 系统设计排行榜几种实现
+简介：golang go 网络编程 net 包基础，net 包 tcp udp socket 编程，监听接收连接，读写数据。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/85016181.html
+
+原标题：实战项目：容器资源限制配置压力测试实践
+简介：前端静态缓存更新生效处理，修改静态资源版本标识，处理浏览器强缓存，让更新资源生效。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/52623626.html
+
+原标题：实战项目：百万日志文件解析处理脚本实践
+简介：golang go 项目安全检查漏洞扫描，扫描 go 项目依赖漏洞，代码安全审计，规避安全风险。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/07179582.html
+
+原标题：实践：消息队列死信处理业务落地实践
+简介：vue pinia 状态管理实战教程，Pinia 完整实战示例，实现状态定义修改，模块拆分替代 Vuex。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/07381699.html
+
+原标题：golang k8s 基础概念 pod deployment
+简介：golang context.Background 与 TODO 区别，Background 主流程根上下文，TODO 不确定用哪个上下文时使用。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/51502595.html
+
+原标题：golang 系统设计 jwt 安全使用避坑要点
+简介：golang 单例模式实现几种方式，Go 单例模式多种实现对比，sync.Once 等方式，实现全局唯一实例。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/30402514.html
+
+原标题：后端大文件分片上传接口开发
+简介：程序日志分级输出规范实践，区分日志等级，规范日志打印内容，合理输出日志，方便线上问题排查定位。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/41571796.html
+
+原标题：golang 系统设计数据库表设计通用规范模板
+简介：端口占用访问失败排查方案，讲解端口占用排查命令，定位占用进程，释放端口，解决服务启动端口被占用报错。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/41503625.html
+
+原标题：前端静态缓存更新生效处理
+简介：golang wasm 性能优化与内存管理，wasm 内存分配释放，减少内存拷贝，优化浏览器端性能。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/60401507.html
+
+原标题：CORS 跨域问题多种解决方案
+简介：golang go 程序抢占调度理解，理解 go 抢占式调度原理，长循环阻塞调度，造成协程调度延迟。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/85289282.html
+
+原标题：golang 系统设计压测工具 vegeta 使用示例
+简介：容器内存扩容 OOM 被杀死修复，调高容器内存限制，优化程序内存占用，避免程序被 OOM 终止。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/15246252.html
+
+原标题：调优方案：容器CPU内存参数压测后调优
+简介：golang math 包常用数学函数，绝对值取整平方根三角函数，业务数学计算工具。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/41536948.html
+
+原标题：golang 系统设计监控体系指标分类方法论梳理
+简介：golang 系统 IO 阻塞 goroutine 场景，理解系统调用阻塞 M，P 会调度其他 M，掌握 go 调度行为。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/85251476.html
+
+原标题：golang goroutine 协程基础实操
+简介：golang udp 服务端客户端开发示例，golang 实现 UDP 服务收发数据包，实现 udp 协议通信程序。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/28137393.html
+
+原标题：golang 系统设计依赖漏洞扫描修复流程
+简介：golang 终端交互式输入选择，命令行交互式问答选择输入，实现交互式脚本工具。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/53795848.html
+
+
+二、踩坑排错｜Troubleshooting
+原标题：golang html 模板渲染简单示例
+简介：异步编程 Promise 执行流程解析，拆解异步执行顺序，理解回调与 Promise 差异，理清异步场景下代码执行逻辑。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/74919282.html
+
+原标题：部署复盘：配置热更新不用重启服务方案
+简介：Git 误提交撤销回退实操教程，演示多种撤销提交方式，区分已经推送远程和本地未提交场景，处理误提交代码。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/96959142.html
+
+原标题：golang redis pipeline 批量操作
+简介：数据库分表路由写入分片修正，修复分表路由逻辑，保证数据写入正确分片，不会出现数据丢失错乱。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/84947027.html
+
+原标题：golang 系统设计锁优化减少竞争提升吞吐
+简介：异步任务堆积消费能力优化，处理消息任务堆积问题，提升消费处理速度，恢复队列正常处理水位。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/15358570.html
+
+原标题：快速上手简单性能监控指标查看
+简介：前后端会话登录状态持久化，实现登录状态持久存储，重启服务登录状态不丢失，保障会话稳定性。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/41424625.html
+
+原标题：代理 HTTPS 证书访问异常处理
+简介：golang 配置文件热加载监听变更，监听配置文件改动，自动重新加载配置，业务即时生效无需重启。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/96469570.html
+
+原标题：调优方案：容器CPU内存参数压测后调优
+简介：API 接口调试与异常处理实战，覆盖接口请求、参数组装、错误捕获，提供调试思路，高效定位接口返回异常问题。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/61402917.html
+
+原标题：golang 系统设计网络超时故障排查思路
+简介：golang 配置文件热加载监听变更，监听配置文件改动，自动重新加载配置，业务即时生效无需重启。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/18160359.html
+
+原标题：快速入门WebSocket，实现简易双向通信demo
+简介：日志敏感信息脱敏泄露防护，日志打印时自动脱敏手机号身份证，避免日志输出泄露用户隐私数据。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/42684735.html
+
+原标题：HTTPS 证书过期更新操作
+简介：golang mock 单元测试编写技巧，单元测试 mock 外部依赖，隔离数据库网络，只测试业务逻辑本身。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/03904148.html
+
+原标题：golang 系统设计开源版本发布 changelog 维护
+简介：golang 进程信号捕获 SIGUSR 自定义信号，捕获用户自定义信号，实现线上不重启触发调试、日志切换。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/26647799.html
+
+原标题：golang 系统设计定时任务分片执行分布式思路
+简介：静态网页 HTML CSS 快速入门实战，通过简单页面案例讲解标签、样式布局，从零编写页面，理解网页基础渲染原理。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/60691369.html
+
+原标题：新手指南：本地多版本环境共存配置
+简介：跨平台换行符统一异常修复，统一代码文件换行符，解决不同操作系统换行符不一致带来脚本执行异常。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/64827061.html
+
+原标题：golang 系统设计单元测试 mock 外部依赖技巧
+简介：nodejs 中间件模式原理剖析，拆解 Node 中间件设计模式，理解请求逐层处理流转的底层原理。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/73736968.html
+
+原标题：性能复盘：系统上下文切换过高性能下降调优
+简介：golang go cover 覆盖率报告生成，go test‑cover 生成测试覆盖率，html 可视化查看未覆盖代码行。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/74856369.html
+
+原标题：超大数据集分页性能优化方案
+简介：无用对象回收抑制内存上涨，优化对象生命周期，及时释放不再使用对象，抑制内存持续不断增长。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/96139257.html
+
+原标题：golang 系统设计网络 io 模型 epoll 原理讲解
+简介：golang json omitempty 零值坑，omitempty 会忽略零值，区分业务是否需要输出零值字段。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/60462582.html
+
+原标题：踩坑记录：浮点数作为Rediskey匹配异常
+简介：golang 表单文件大小限制配置，限制表单上传文件最大体积，拦截超大文件上传请求，保护服务。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/85357958.html
+
+原标题：零基础理解缓存基础原理与简单使用
+简介：golang go 泛型使用避坑注意点，泛型与 interface 区别，泛型性能，什么时候适合使用泛型。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/86038462.html
+
+原标题：git cherry‑pick 规范操作防 bug
+简介：Nginx 静态代理负载均衡全套配置，一套 Nginx 配置示例，覆盖静态资源、反向代理、负载均衡场景。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/85244140.html
+
+原标题：坑点：依赖缓存未更新，旧代码持续运行
+简介：nodejs 消息队列消费服务开发，Node 开发消息队列消费端，监听队列消息执行业务逻辑，异步解耦业务。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/96039240.html
+
+原标题：实战：容器内执行调试排错完整实操流程
+简介：golang channel 通道并发处理，讲解 Channel 用法，协程之间通过通道传递数据，做并发同步控制。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/74927060.html
+
+原标题：多套环境灵活切换配置方案
+简介：golang 僵尸进程处理 go 程序，正确等待子进程退出，避免产生僵尸进程，占用系统进程表。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/18289584.html
+
+原标题：全局本地依赖隔离冲突规避
+简介：业务幂等键设计防重复逻辑，讲解幂等键设计思路，选择合适业务字段作为幂等标识，实现可靠防重复。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/71140261.html
+
+原标题：Architecture：链路追踪架构核心组件与埋点
+简介：golang https 客户端跳过证书校验，开发测试环境跳过 tls 证书校验，仅用于内网测试禁止生产使用。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/43799291.html
+
+原标题：项目实践：实现数据脱敏组件支持多种脱敏规则
+简介：golang viper 多源配置管理实操，viper 读取配置文件环境变量命令行参数，多源配置优先级管理。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/54928928.html
+
+原标题：golang 系统设计压测工具 vegeta 使用示例
+简介：golang sort 切片排序自定义 less，sort.Slice 切片快速排序，自定义 less 函数实现业务排序。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/21471463.html
+
+原标题：新手指南：本地防火墙端口访问失败排查
+简介：golang context 包标准用法规范，context 传递请求元数据、超时、取消，函数第一个参数传入 ctx。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/26402917.html
+
+原标题：golang docker 部署 redis 配置要点
+简介：golang feishu 飞书机器人消息发送，调用飞书 webhook 机器人，发送文本卡片消息，实现业务告警通知。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/45798777.html
+
+原标题：golang 消息队列 kafka 消费开发
+简介：全量回归测试提升代码质量，搭建全量回归测试集，版本发布执行回归测试，避免迭代引入旧 bug。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/94675664.html
+
+原标题：Architecture：监控告警架构避免告警风暴设计
+简介：golang 漏桶算法实现接口限流，漏桶算法控制请求流出速率，平滑突发流量，削平流量峰值。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/63846254.html
+
+原标题：Redis 内存淘汰策略数据防丢失
+简介：golang go 逃逸分析实操查看，go build‑gcflags=-m 查看逃逸分析，减少堆分配优化程序性能。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/96024039.html
+
+原标题：golang 系统设计网络超时故障排查思路
+简介：Nginx 丢失请求头配置修正，修复 Nginx 代理转发丢失请求头配置，保证上游服务拿到完整请求头信息。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/74956384.html
+
+原标题：排错：前端打包chunk过大浏览器加载缓慢
+简介：﻿从零搭建本地开发环境完整教程，手把手完成环境配置，梳理踩坑点，帮助开发者快速搭建可用的本地开发环境，降低上手成本。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/64913240.html
+
+原标题：部署复盘：回滚策略，线上故障快速回退
+简介：golang 文件上传下载接口开发，Go 开发文件上传下载接口，校验文件，处理文件读写存储逻辑。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/63817081.html
+
+原标题：golang 系统设计服务优雅停机完整流程
+简介：nodejs redis 缓存业务实战，Node 对接 Redis 实现业务缓存，缓存热点查询结果，减轻数据库压力。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/63149492.html
+
+原标题：部署实践：HTTPS证书自动续期配置实践
+简介：golang grpc keepalive 保活配置，grpc keepalive 参数调优，检测断开僵死连接，释放无效连接资源。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/07272514.html
+
+原标题：golang 系统设计 webhook 回调接口设计要点
+简介：golang html 模板防 xss 自动转义，理解 go html/template 自动转义，防止 XSS 攻击，处理不需要转义场景。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/04154702.html
+
+原标题：react hooks 常见陷阱避坑指南
+简介：移动端适配 rem vw 方案对比，对比 rem 与 vw 移动端适配方案，分析优缺点，给出选型建议。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/41257160.html
+
+原标题：版本升级服务启动失败处理
+简介：序列化版本不一致解析失败，保证序列化对象版本对齐，修复版本不匹配导致对象反序列化失败。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/29302635.html
+
+三、实战开发｜Practice
+原标题：开发复盘：批量任务进度持久化实现方案
+简介：golang 数据库慢查询监控实现，Go 封装 SQL 执行监控，记录慢 SQL，上报日志，发现数据库性能问题。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/96261414.html
+
+原标题：开发复盘：大数据量分页避免offset性能问题
+简介：golang url 参数编码处理方案，Go URL 参数编码解码，处理特殊字符，避免 URL 参数错乱。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/06027169.html
+
+原标题：性能笔记：锁优化减少竞争提升并发吞吐
+简介：golang go 基准测试 benchmark 编写，Benchmark 性能基准测试，测量函数执行耗时内存分配情况。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/18260694.html
+
+原标题：DevOps：多阶段构建Dockerfile最佳实践
+简介：业务接口幂等完整落地案例，完整业务场景幂等落地示例，覆盖表单提交、回调、重试各类场景。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/85524039.html
+
+原标题：golang redis 连接池参数最佳值
+简介：Shell 脚本自动化命令编写，讲解 Shell 基础语法，编写自动化脚本，完成批量执行、文件处理，解放重复手工操作。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/60895792.html
+
+原标题：新手指南：如何读懂开源项目报错日志
+简介：简易日志收集集中管理方案，搭建轻量日志收集方案，把多服务日志汇总，集中检索查看日志信息。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/84894847.html
+
+原标题：调优方案：前端静态资源打包性能体积优化
+简介：数据库死锁成因规避方案，讲解数据库死锁产生条件，给出业务层面规避手段，减少死锁事件发生。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/71679143.html
+
+原标题：多环境配置中心灵活切换方案
+简介：golang fasthttp 高性能 http 库使用，fasthttp 高性能 http 实现，适合超高 QPS 场景，对比 net/http 差异。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/59901570.html
+
+原标题：快速入门消息通知简单实现方案
+简介：内网 DNS 不稳定随机报错排查，定位内网 DNS 抖动问题，配置备选 DNS，解决偶现域名解析失败。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/61368703.html
+
+原标题：Troubleshooting：Redis大key引发集群卡顿
+简介：nodejs jwt 登录鉴权完整示例，Node 实现 JWT 登录鉴权，登录签发令牌，接口校验令牌身份。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/15367362.html
+
+原标题：安全复盘：环境变量密钥泄露风险与防护
+简介：WSL 内存上限限制防止资源耗尽，修改 WSL 内存上限配置，避免 WSL 占用主机大量内存资源。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/18260473.html
+
+原标题：Debug：长连接未设置心跳，连接僵死不回收
+简介：golang systemd 信号与优雅退出配合，systemd 停止服务发送 SIGTERM，go 程序捕获信号优雅关闭。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/29690392.html
+
+原标题：Docker 容器时区错误修复方案
+简介：golang atomic.Value 存储任意类型数据，atomic.Value 安全存储读取任意类型，配置热更新常用。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/63745749.html
+
+原标题：调优方案：服务实例扩容，水平扩展性能
+简介：golang http client Transport 参数调优，Transport 最大连接空闲连接，TLS 配置，http 客户端调优。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/71930251.html
+
+原标题：golang docker compose 环境变量
+简介：内网 DNS 不稳定随机报错排查，定位内网 DNS 抖动问题，配置备选 DNS，解决偶现域名解析失败。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/52614925.html
+
+原标题：安全笔记：CSP内容安全策略配置实践
+简介：站内邮件消息通知功能开发，实现站内消息、邮件通知推送，业务事件触发通知，提醒用户业务状态变更。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/41069706.html
+
+原标题：Architecture：链路追踪架构核心组件与埋点
+简介：多规则数据脱敏组件开发，封装通用脱敏组件，支持多种脱敏规则，项目多处复用脱敏逻辑。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/15058430.html
+
+原标题：golang 系统设计技术方案文档模板参考
+简介：代码模块化组件化拆分思路，讲解代码拆分原则，将大业务拆分为独立模块组件，提升代码复用与维护能力。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/85947971.html
+
+原标题：请求工具封装统一异常处理
+简介：golang 系统调用跟踪 strace 排查 go 程序，strace 跟踪系统调用，定位文件网络 IO 慢的底层原因。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/09392818.html
+
+原标题：golang 系统设计 sql 注入 xss 防护实践
+简介：golang go 容器 heap 堆实现优先队列，实现 heap 接口，构建优先队列，任务优先级调度。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/29350352.html
+
+原标题：DevOps：Docker镜像优化，减小镜像体积实践
+简介：golang 互斥锁读写锁并发安全，互斥锁读写锁实操，保护共享变量，解决多协程并发读写数据竞争。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/70491736.html
+
+原标题：nodejs 消息队列消费服务开发
+简介：短信服务封装失败自动重试，封装短信发送组件，处理发送失败自动重试，兼容多短信服务商。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/07057957.html
+
+原标题：golang 内存缓存简单实现方案
+简介：golang testing.TB Helper 标记辅助函数，t.Helper 标记辅助函数，报错打印真实调用位置。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/30401362.html
+
+原标题：golang 系统设计主键 id 选型雪花自增对比
+简介：超大数据集分页性能优化方案，对比不同分页方案，针对海量数据集做分页性能优化，解决越翻越慢。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/74848069.html
+
+原标题：系统字符集统一乱码修复
+简介：golang 异步任务队列 worker 池开发，任务入数据库或 redis，worker 池消费执行，异步处理耗时业务。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/43857571.html
+
+原标题：实战项目：CLI批量文件处理工具开发全过程
+简介：多版本开发环境共存配置，实现同一工具多版本并存，快速切换不同版本，适配不同项目对版本的差异化需求。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/56068485.html
+
+原标题：容器资源限制防止宿主机过载
+简介：开发代理服务网络限制解决，搭建本地代理服务，解决开发环境网络访问受限，实现外部接口正常调用。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/18379574.html
+
+原标题：golang k8s 节点污点容忍度配置
+简介：golang io.MultiReader MultiWriter 拼接流，多个 reader 拼接，多 writer 同时写入一份数据。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/26350303.html
+
+原标题：实战：Nginx负载均衡多种策略配置实践
+简介：golang csv 百万级数据导入数据库，流式读取 csv 分批写入数据库，避免一次性加载全部数据。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/15361303.html
+
+原标题：golang 系统设计压测指标确定与分析
+简介：golang testing.TB Helper 标记辅助函数，t.Helper 标记辅助函数，报错打印真实调用位置。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/74917051.html
+
+原标题：golang 系统设计最小权限原则落地实践
+简介：nestjs 全局返回格式统一处理，Nest 全局拦截器统一包装接口返回数据，对外输出标准化响应格式。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/41491403.html
+
+原标题：简易网关请求路由过滤模拟
+简介：文件锁正确使用避免死锁，合理使用文件锁，控制多进程访问同一个文件，规避文件锁死锁现象。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/00413624.html
+
+原标题：内存溢出问题现象识别排查
+简介：golang k8s 客户端 client‑go 简单示例，client‑go 操作 k8s 资源，增删改查 pod deployment 等资源对象。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/18150314.html
+
+原标题：DevOps：WSL2生产环境使用风险提示
+简介：golang interface 接口使用避坑，interface 判 nil 坑点，理解接口底层结构，避免判空逻辑失效。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/18261524.html
+
+原标题：golang 优雅关闭 grpc 服务示例
+简介：nestjs 权限守卫鉴权实现方案，使用 Nest 守卫实现接口鉴权，角色权限控制，拦截未授权接口访问。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/30784615.html
+
+原标题：性能复盘：锁等待严重业务逻辑优化记录
+简介：golang 数据库连接耗尽排查思路，监控连接池状态，定位连接未归还，解决连接耗尽报错。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/65967068.html
+
+原标题：golang 系统设计 gob msgpack 序列化对比
+简介：golang 路径处理 filepath 包规范写法，使用 filepath 处理路径拼接分割，自动适配操作系统路径分隔符。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/07282818.html
+
+原标题：踩坑：环境变量未生效导致线上配置错乱
+简介：Nginx 请求头大小上限调整，修改 Nginx 配置，调大请求头允许最大大小，避免大 Header 请求被拒绝。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/07246261.html
+
+原标题：golang jwt 过期刷新 token 实现
+简介：CI 持续集成自动构建流程，讲解 CI 基础概念，配置流水线实现代码提交后自动构建、测试，提升交付自动化。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/04140361.html
+
+原标题：CDN 缓存刷新获取最新静态资源
+简介：golang go 项目 CI github actions 配置，github actions 实现 go 项目 ci，自动测试、代码检查、编译打包镜像。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/19579170.html
+
+四、架构设计｜Architecture
+原标题：DevOps：多阶段构建Dockerfile最佳实践
+简介：golang mime 类型检测文件，mime 识别文件 mime 类型，设置 http 响应 Content‑Type。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/93028061.html
+
+原标题：效率笔记：VSCode插件集合后端前端开发效率
+简介：golang go test 单元测试命令参数详解，gotest 参数覆盖率，指定测试用例，跳过测试，单元测试命令实操。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/20402813.html
+
+原标题：golang 数据库慢查询监控实现
+简介：接口压测定位系统性能瓶颈，使用压测工具对接口施压，观察指标，定位系统性能瓶颈点。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/10582917.html
+
+原标题：内网测试服务搭建团队调试
+简介：golang 消息队列实现事务消息方案，基于 kafka 实现事务消息，业务执行成功才对外投递消息。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/60891825.html
+
+原标题：性能笔记：操作系统文件句柄、虚拟内存调优
+简介：golang mongodb 索引优化慢查询处理，mongodb 创建索引，分析慢查询，优化聚合查询执行性能。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/08138170.html
+
+原标题：golang 系统设计压测工具 wrk 使用实操
+简介：webpack chunk 分包策略详解，讲解 webpack chunk 分包策略，拆分第三方包与业务代码，优化缓存复用。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/48681806.html
+
+原标题：golang mysql limit 大分页优化
+简介：nodejs http 服务性能调优实战，调优 Node HTTP 服务内核参数，连接复用，提升接口并发处理能力。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/00502914.html
+
+原标题：golang 系统设计 mq 故障降级业务策略
+简介：Docker 容器网络不通排查，排查容器网络模式、端口映射、防火墙，解决容器之间、容器外部网络不通。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/63057471.html
+
+原标题：golang 系统设计 io 瓶颈磁盘网络优化实践
+简介：日志输出规范防止磁盘爆满，控制日志输出量，配置日志切割轮转，避免日志文件无限增长占满磁盘。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/07271526.html
+
+原标题：上传接口跨域配置特殊适配
+简介：golang consul 服务发现简单示例，对接 Consul 实现服务注册发现，微服务实例自动感知。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/37268062.html
+
+原标题：golang 系统设计配置多环境隔离方案落地
+简介：磁盘占满服务不可用清理方案，定位磁盘占用大文件，清理日志、缓存文件，恢复磁盘可用空间。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/75936071.html
+
+原标题：golang minio 分片上传断点续传
+简介：golang go race 竞态检测工具，‑race 检测数据竞争，编译运行检测并发读写数据竞争 bug。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/08246263.html
+
+原标题：golang 系统设计压测工具 wrk 使用实操
+简介：请求重试组件退避策略实现，封装重试组件，实现指数退避策略，避免大量请求同时重试压垮下游。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/30492915.html
+
+原标题：新手向：开源项目fork与同步上游代码
+简介：前端骨架屏提升页面体验，实现页面骨架屏，数据未加载完成展示占位，优化页面白屏感知体验。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/20381404.html
+
+原标题：网关集成鉴权限流日志一体化
+简介：本地运行正常线上报错排查，对比本地与线上环境差异，从配置、系统版本、文件权限定位线上独有的 bug。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/71561148.html
+
+原标题：golang 系统设计短链接服务实现思路
+简介：golang 定时任务 cron 使用指南，Go 使用 Cron 库实现定时任务，配置 corn 表达式调度业务任务。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/60464717.html
+
+原标题：golang ci 流水线代码质量扫描集成
+简介：golang io.Reader io.Writer 接口理解，io 读写接口，各类数据源统一抽象，适配 io 复制函数。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/49414031.html
+
+原标题：部署复盘：数据库主从备份恢复演练实践
+简介：nodejs 定时任务生产环境避坑，Node 定时任务线上踩坑汇总，集群重复执行、任务阻塞等问题解决方案。
+ | 原文链接：http://www.blog.ktivh.cn/qulgy/07273693.html
+
+?
